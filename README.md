@@ -108,6 +108,13 @@ These metrics will help in understanding how the API performs under stress and i
    - Ensures data returned for a specific country matches the `country_code` filter.
 
 
+### Regression Tests
+
+1. **Status Code Check**: Verifies that the API returns a status code of 200.
+2. **Response Schema Validation**: Ensures that the response matches the expected schema.
+3. **Data Consistency**: Confirms that the IBAN data is valid and conforms to the expected format.
+
+
 ## Jenkins Integration
 
 To automate the testing process, the Postman collection has been integrated with Jenkins. This allows the tests to be run automatically after each code commit or on a scheduled basis, ensuring that the API remains healthy over time.
