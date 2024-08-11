@@ -1,4 +1,4 @@
-# API Automation Postman and Jenkins
+# API Test with Postman/Newman and Jenkins for CI/CD
 
 ## Overview
 
