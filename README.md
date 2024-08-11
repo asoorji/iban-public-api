@@ -23,7 +23,7 @@ To successfully run the tests, ensure that the following environment variables a
 ### Setting Up the Environment
 
 1. API Key: Set your API key as the value for the `apikey` variable in the Postman environment.
-2. Base URL: Ensure that the `baseUrl` variable points to `https://api.apilayer.com/bank_data/iban_validate`.
+2. Base URL: Ensure that the `baseUrl` variable points to `https://api.apilayer.com/`.
 3. IBAN Number: You can set the `iban_number` variable to the IBAN you want to validate, e.g., `DE89370400440532013000`.
 
 ## Smoke Testing
@@ -138,4 +138,3 @@ To automate the testing process, the Postman collection has been integrated with
 4. Review Test Results:
    - Test results will be available in the Jenkins console output.
 
-## Conclusion
