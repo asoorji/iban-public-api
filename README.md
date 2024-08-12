@@ -55,7 +55,7 @@ Performance tests were conducted using Newman, Postman's command-line companion.
 To execute the performance tests, use the following Newman command:
 
 ```bash
-newman run https://link-to-your-collection -e https://link-to-your-environment -n 100
+newman run https://link-to-your-collection -e https://link-to-your-environment -n 100 --reporters cli,htmlextra --reporter-htmlextra-export 
 ```
 
 This command runs the Postman collection 100 times, simulating a load on the API to measure response times and overall performance.
